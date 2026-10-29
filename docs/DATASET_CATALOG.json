@@ -1,0 +1,93 @@
+{
+  "verified_on": "2026-10-25",
+  "datasets": [
+    {
+      "id": "cnmc",
+      "name": "C-NMC 2019",
+      "role": "primary_binary_cell_classification",
+      "primary_source": "https://doi.org/10.7937/tcia.2019.dc64i46r",
+      "download_mirror": "https://www.kaggle.com/datasets/andrewmvd/leukemia-classification",
+      "mirror_version": 2,
+      "upstream_license": "CC BY 3.0 (TCIA collection)",
+      "mirror_license_note": "Mirror says Other / license unspecified; retain primary TCIA attribution and record discrepancy.",
+      "citation": "Mourya, S., Kant, S., Kumar, P., Gupta, A., & Gupta, R. (2019). ALL Challenge dataset of ISBI 2019 (C-NMC 2019), Version 1. The Cancer Imaging Archive. DOI: 10.7937/tcia.2019.dc64i46r",
+      "selected_partition": "training_data only: fold_0 train, fold_1 validation, fold_2 internal held-out test",
+      "expected_selected_images_before_audit": 10661,
+      "expected_selected_subjects": 73,
+      "labels": {
+        "hem": "0 normal / normal precursor",
+        "all": "1 abnormal / B-ALL blast"
+      },
+      "patient_ids": "parse UID_<subject>_<image>_<cell>_<class>.bmp; namespace subject by class",
+      "excluded": "All preliminary/final challenge test partitions; final test does not provide usable public ground truth for this protocol.",
+      "limitations": [
+        "Cell crops, no original smear-image detection ground truth",
+        "Already preprocessed/stain-normalized upstream",
+        "Binary endpoint covers B-ALL blasts rather than all blood cancers"
+      ]
+    },
+    {
+      "id": "aml",
+      "name": "AML-Cytomorphology_LMU",
+      "role": "external_single_cell_test_with_source_and_disease_shift",
+      "primary_source": "https://doi.org/10.7937/tcia.2019.36f5o9ld",
+      "publication": "https://www.nature.com/articles/s42256-019-0101-9",
+      "download_mirror": "https://www.kaggle.com/datasets/umarsani1605/aml-cytomorphology-2",
+      "mirror_version": 1,
+      "upstream_license": "CC BY 3.0 (TCIA collection)",
+      "mirror_license_note": "Kaggle mirror says Unknown. Primary dataset license and citations retained. JPEG conversion is a derivative; do not claim pixel identity with original TIFF.",
+      "citation": "Matek, C., Schwarz, S., Marr, C., & Spiekermann, K. (2019). A Single-cell Morphological Dataset of Leukocytes from AML Patients and Non-malignant Controls. TCIA. DOI: 10.7937/tcia.2019.36f5o9ld",
+      "selected_partition": "LYT typical lymphocytes and MYO myeloblasts only; all retained selected cells external_test",
+      "expected_selected_images_before_audit": 7205,
+      "labels": {
+        "LYT": "0 normal morphology / typical lymphocyte",
+        "MYO": "1 abnormal screening proxy / myeloblast"
+      },
+      "patient_ids": "Not recoverable from randomized class-specific filenames; never treat cell counters as patient IDs.",
+      "limitations": [
+        "Simultaneous source, disease-lineage and negative-class maturity shift: B-ALL vs benign precursors -> AML myeloblasts vs typical lymphocytes; not matched B-ALL external validation",
+        "No patient diagnosis inferred from individual morphology; normal morphology does not mean healthy donor",
+        "No patient-level confidence interval without mapping",
+        "Mirror JPEG conversion introduces additional compression/domain shift; not the canonical TIFF benchmark",
+        "Excluded all other morphological classes, rather than automatically labeling every immature cell malignant"
+      ],
+      "label_definition_source": "https://github.com/marrlab/DinoBloom (AML Matek: MYO Myeloblast, MYB Myelocyte, LYT Lymphocyte typical)"
+    },
+    {
+      "id": "bccd",
+      "name": "BCCD Blood Cell Count and Detection",
+      "role": "single_class_WBC_localization_and_few_shot_detection",
+      "primary_source": "https://github.com/Shenggan/BCCD_Dataset",
+      "commit": "d272fb14cdff6e473fafeeeba32aba5f560e9e43",
+      "license": "MIT per upstream repository; preserve upstream LICENSE",
+      "expected_images_before_audit": 364,
+      "selected_annotations": "WBC boxes only; RBC and Platelets are background for this one-class task",
+      "patient_ids": "Not provided; upstream image-level splits only",
+      "limitations": [
+        "Not a leukemia diagnosis dataset",
+        "No normal/abnormal labels",
+        "Cannot establish patient-independent detection performance",
+        "Cannot measure end-to-end malignant-cell detection mAP from these labels"
+      ]
+    }
+  ],
+  "considered_not_selected": [
+    {
+      "name": "ALL-IDB",
+      "source": "https://scotti.di.unimi.it/all/",
+      "reason": "Requires signed application and email access; no unauthorized mirror used. ALL-IDB1 supplies centroids rather than complete WBC bounding boxes; ALL-IDB2 crops overlap with ALL-IDB1."
+    },
+    {
+      "name": "Raabin-WBC",
+      "source": "https://raabindata.com/",
+      "reason": "Possible future larger WBC localization source; BCCD chosen now for small reproducible detection baseline, without adding a second unrelated label ontology."
+    },
+    {
+      "name": "Taleqani ALL",
+      "source": "https://www.kaggle.com/datasets/mehradaria/leukemia",
+      "reason": "Downloaded and visually inspected. Original and Segmented fields contain multiple cells; image labels cannot be assigned to every detected cell. Excluded from primary single-cell protocol. Could support a separately specified weakly supervised image-level task.",
+      "local_archive_retained_for_provenance": true,
+      "license": "Database: Open Database, Contents: Copyright Original Authors"
+    }
+  ]
+}

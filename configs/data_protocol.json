@@ -1,0 +1,21 @@
+{
+  "protocol_version": "1.0.0",
+  "seed": 20261025,
+  "classification_labels": {"normal": 0, "abnormal": 1},
+  "cnmc_label_map": {"hem": 0, "all": 1},
+  "aml_label_map": {"LYT": 0, "MYO": 1},
+  "cnmc_folds": {"fold_0": "train", "fold_1": "val", "fold_2": "test"},
+  "shots": [1, 5, 10, 20],
+  "trials": 300,
+  "sampling": "patient_round_robin_without_replacement_nested_shots",
+  "query": "all_retained_images_in_fixed_query_manifest",
+  "external_target_adaptation": false,
+  "allow_test_or_external_self_supervision": false,
+  "classification_threshold": 0.5,
+  "threshold_selection": "fixed_primary_threshold_no_target_tuning",
+  "image_preprocessing": {"mode": "RGB", "size": 224, "resize": "aspect_preserving_pad", "resample": "bicubic", "normalization": "backbone_pretrained_config", "fit_stain_reference_on": "cnmc_train_only"},
+  "near_duplicate_hamming_distance": 2,
+  "near_duplicate_action": "review_only_dhash_is_not_sufficient_for_exclusion",
+  "detection": {"dataset": "bccd", "class_map": {"WBC": 0}, "ignore_classes": ["RBC", "Platelets"], "split": "upstream_train_val_test_then_duplicate_quarantine", "patient_ids_available": false, "voc_coordinate_convention": "1_based_inclusive_to_0_based_half_open", "iou_thresholds": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]},
+  "evaluation": {"positive_class": 1, "primary": "macro_f1", "also_report": ["sensitivity", "specificity", "positive_f1", "balanced_accuracy", "auroc", "auprc", "confusion_matrix"], "uncertainty": "mean_and_sample_sd_across_support_trials; separate_cluster_bootstrap_over_patients_for_cnmc", "bootstrap_replicates": 2000, "external_cluster_ci": "unavailable_without_patient_identifiers"}
+}
