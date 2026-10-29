@@ -1,0 +1,16 @@
+{
+  "seed": 20261025,
+  "process_name": "VLLM:Engine",
+  "max_vram_gib": 16,
+  "output": "runs/baseline_v1",
+  "dino_model": "facebook/dinov2-small",
+  "dino_revision": "ed25f3a31f01632728cabb09d1542f84ab7b0056",
+  "feature_batch_size": 32,
+  "yolo_model": "yolo11n.pt",
+  "yolo_epochs": 50,
+  "yolo_patience": 12,
+  "yolo_image_size": 640,
+  "yolo_batch_size": 8,
+  "prototype_temperature": 1.0,
+  "prototype_trials": 300
+}

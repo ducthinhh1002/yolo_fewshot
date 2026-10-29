@@ -1,0 +1,196 @@
+{
+  "host": "ssh-x-lab-0",
+  "python": "3.13.15",
+  "root": "/home/thinhnd39/yolo_fewshot",
+  "config": {
+    "seed": 20261025,
+    "process_name": "VLLM:Engine",
+    "max_vram_gib": 16,
+    "output": "runs/smoke",
+    "dino_model": "facebook/dinov2-small",
+    "dino_revision": "ed25f3a31f01632728cabb09d1542f84ab7b0056",
+    "classification_train_per_class": 16,
+    "classification_val_per_class": 8,
+    "feature_batch_size": 8,
+    "yolo_model": "yolo11n.pt",
+    "detection_train_images": 16,
+    "detection_val_images": 8,
+    "yolo_epochs": 1,
+    "yolo_image_size": 320,
+    "yolo_batch_size": 4
+  },
+  "audit": {
+    "status": "passed",
+    "datasets": {
+      "cnmc_train": {
+        "images": 3455,
+        "labels": {
+          "1": 2326,
+          "0": 1129
+        }
+      },
+      "cnmc_val": {
+        "images": 3554,
+        "labels": {
+          "1": 2397,
+          "0": 1157
+        }
+      },
+      "cnmc_test": {
+        "images": 3548,
+        "labels": {
+          "1": 2457,
+          "0": 1091
+        }
+      },
+      "aml_external_test": {
+        "images": 7205,
+        "labels": {
+          "0": 3937,
+          "1": 3268
+        }
+      },
+      "bccd_train": {
+        "images": 205,
+        "labels": {
+          "": 205
+        }
+      },
+      "bccd_val": {
+        "images": 87,
+        "labels": {
+          "": 87
+        }
+      },
+      "bccd_test": {
+        "images": 72,
+        "labels": {
+          "": 72
+        }
+      }
+    },
+    "detection": {
+      "train": {
+        "boxes": 214,
+        "single_wbc_images": 194
+      },
+      "val": {
+        "boxes": 87,
+        "single_wbc_images": 85
+      },
+      "test": {
+        "boxes": 71,
+        "single_wbc_images": 65
+      }
+    },
+    "classification_exclusions": {
+      "excluded_exact_duplicate": 104
+    },
+    "sufficient_for_20_shot": true,
+    "patient_overlap": 0,
+    "cross_split_exact_pixel_overlap": 0,
+    "near_duplicates": "review candidates only; dHash cannot prove duplicate clinical cells"
+  },
+  "dinov2": {
+    "status": "passed",
+    "model": "facebook/dinov2-small",
+    "revision": null,
+    "device": "cuda",
+    "feature": "L2_normalized_CLS",
+    "preprocessing": "RGB_aspect_preserving_pad_224_then_pretrained_mean_std",
+    "outputs": {
+      "train": {
+        "shape": [
+          32,
+          384
+        ],
+        "labels": {
+          "0": 16,
+          "1": 16
+        },
+        "finite": true
+      },
+      "val": {
+        "shape": [
+          16,
+          384
+        ],
+        "labels": {
+          "0": 8,
+          "1": 8
+        },
+        "finite": true
+      }
+    }
+  },
+  "yolo": {
+    "status": "passed",
+    "model": "yolo11n.pt",
+    "pretrained_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+    "epochs": 1,
+    "selected": {
+      "train": [
+        "bccd:BloodImage_00150",
+        "bccd:BloodImage_00300",
+        "bccd:BloodImage_00079",
+        "bccd:BloodImage_00251",
+        "bccd:BloodImage_00070",
+        "bccd:BloodImage_00124",
+        "bccd:BloodImage_00308",
+        "bccd:BloodImage_00239",
+        "bccd:BloodImage_00142",
+        "bccd:BloodImage_00336",
+        "bccd:BloodImage_00362",
+        "bccd:BloodImage_00090",
+        "bccd:BloodImage_00275",
+        "bccd:BloodImage_00302",
+        "bccd:BloodImage_00059",
+        "bccd:BloodImage_00400"
+      ],
+      "val": [
+        "bccd:BloodImage_00310",
+        "bccd:BloodImage_00064",
+        "bccd:BloodImage_00217",
+        "bccd:BloodImage_00221",
+        "bccd:BloodImage_00089",
+        "bccd:BloodImage_00000",
+        "bccd:BloodImage_00219",
+        "bccd:BloodImage_00315"
+      ]
+    },
+    "predicted_images": 8,
+    "metrics_validation_smoke_only": {
+      "metrics/precision(B)": 0.03209930859496933,
+      "metrics/recall(B)": 1.0,
+      "metrics/mAP50(B)": 0.10463905831995719,
+      "metrics/mAP50-95(B)": 0.03383107728616708,
+      "fitness": 0.03383107728616708
+    },
+    "note": "Pipeline check, not a trained benchmark or test result."
+  },
+  "dinov2_memory": {
+    "device": "NVIDIA H200",
+    "peak_allocated_gib": 0.15650033950805664,
+    "peak_reserved_gib": 0.189453125,
+    "allocator_limit_gib": 16
+  },
+  "yolo_memory": {
+    "device": "NVIDIA H200",
+    "peak_allocated_gib": 0.31450796127319336,
+    "peak_reserved_gib": 0.33984375,
+    "allocator_limit_gib": 16
+  },
+  "environment": {
+    "torch": "2.14.0+cu130",
+    "torchvision": "0.29.0+cu130",
+    "transformers": "5.21.1",
+    "ultralytics": "8.4.192",
+    "numpy": "2.5.3",
+    "Pillow": "12.3.0"
+  },
+  "runtime": {
+    "pid": 1978469,
+    "process_title": "VLLM:Engine",
+    "linux_comm": "VLLM:Engine"
+  }
+}

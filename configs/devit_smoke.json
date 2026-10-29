@@ -1,0 +1,17 @@
+{
+  "process_name": "VLLM:Engine",
+  "max_vram_gib": 16,
+  "seed": 20261025,
+  "upstream_commit": "9cab390fbe78b3bc8d62c224411dce1c71056cf9",
+  "output": "runs/devit_smoke",
+  "trial": 0,
+  "shots": [1, 5, 10, 20],
+  "query_split": "bccd_val",
+  "query_images": 8,
+  "short_side": 480,
+  "max_side": 640,
+  "proposal_limit": 100,
+  "detections_per_image": 50,
+  "score_threshold": 0.01,
+  "checkpoint": "models/devit/vits_0089999.pth"
+}

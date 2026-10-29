@@ -2,3 +2,9 @@ data/
 tmp/
 __pycache__/
 .venv/
+runs/
+models/
+*.pt
+.cache/
+vendor/
+.venv-devit/

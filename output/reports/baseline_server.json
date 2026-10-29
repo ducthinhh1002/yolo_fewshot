@@ -1,0 +1,371 @@
+{
+  "host": "ssh-x-lab-0",
+  "config": {
+    "seed": 20261025,
+    "process_name": "VLLM:Engine",
+    "max_vram_gib": 16,
+    "output": "runs/baseline_v1",
+    "dino_model": "facebook/dinov2-small",
+    "dino_revision": "ed25f3a31f01632728cabb09d1542f84ab7b0056",
+    "feature_batch_size": 32,
+    "yolo_model": "yolo11n.pt",
+    "yolo_epochs": 50,
+    "yolo_patience": 12,
+    "yolo_image_size": 640,
+    "yolo_batch_size": 8,
+    "prototype_temperature": 1.0,
+    "prototype_trials": 300
+  },
+  "audit": {
+    "status": "passed",
+    "datasets": {
+      "cnmc_train": {
+        "images": 3455,
+        "labels": {
+          "1": 2326,
+          "0": 1129
+        }
+      },
+      "cnmc_val": {
+        "images": 3554,
+        "labels": {
+          "1": 2397,
+          "0": 1157
+        }
+      },
+      "cnmc_test": {
+        "images": 3548,
+        "labels": {
+          "1": 2457,
+          "0": 1091
+        }
+      },
+      "aml_external_test": {
+        "images": 7205,
+        "labels": {
+          "0": 3937,
+          "1": 3268
+        }
+      },
+      "bccd_train": {
+        "images": 205,
+        "labels": {
+          "": 205
+        }
+      },
+      "bccd_val": {
+        "images": 87,
+        "labels": {
+          "": 87
+        }
+      },
+      "bccd_test": {
+        "images": 72,
+        "labels": {
+          "": 72
+        }
+      }
+    },
+    "detection": {
+      "train": {
+        "boxes": 214,
+        "single_wbc_images": 194
+      },
+      "val": {
+        "boxes": 87,
+        "single_wbc_images": 85
+      },
+      "test": {
+        "boxes": 71,
+        "single_wbc_images": 65
+      }
+    },
+    "classification_exclusions": {
+      "excluded_exact_duplicate": 104
+    },
+    "sufficient_for_20_shot": true,
+    "patient_overlap": 0,
+    "cross_split_exact_pixel_overlap": 0,
+    "near_duplicates": "review candidates only; dHash cannot prove duplicate clinical cells"
+  },
+  "features": {
+    "model": "facebook/dinov2-small",
+    "revision": "ed25f3a31f01632728cabb09d1542f84ab7b0056",
+    "splits": {
+      "train": {
+        "shape": [
+          3455,
+          384
+        ],
+        "manifest_sha256": "a11f54b5c3dd59954131513ac5881463925259802c0f26d181e3d36a44a04ad3"
+      },
+      "val": {
+        "shape": [
+          3554,
+          384
+        ],
+        "manifest_sha256": "3ee272c0cf619730b3e00a8045c3e6fb1a0e49ef7b7279acabb71574883354df"
+      }
+    },
+    "memory": {
+      "device": "NVIDIA H200",
+      "peak_allocated_gib": 0.2843003273010254,
+      "peak_reserved_gib": 0.349609375,
+      "allocator_limit_gib": 16
+    },
+    "test_used": false
+  },
+  "prototype": {
+    "method": "frozen_DINOv2_cosine_nearest_prototype",
+    "trials": 300,
+    "query": "cnmc_val",
+    "test_used": false,
+    "temperature": 1.0,
+    "summary": {
+      "1": {
+        "macro_f1": {
+          "mean": 0.47231905046721456,
+          "sd": 0.13979511794716606
+        },
+        "sensitivity": {
+          "mean": 0.47808649701015155,
+          "sd": 0.3157003741897255
+        },
+        "specificity": {
+          "mean": 0.6258628637280322,
+          "sd": 0.31754827603702707
+        },
+        "auroc": {
+          "mean": 0.6041883713279841,
+          "sd": 0.18025221933889163
+        },
+        "auprc": {
+          "mean": 0.7479679926342714,
+          "sd": 0.11261479142602394
+        }
+      },
+      "5": {
+        "macro_f1": {
+          "mean": 0.5603289051628962,
+          "sd": 0.11469094821178961
+        },
+        "sensitivity": {
+          "mean": 0.5386038103184536,
+          "sd": 0.1907481114612015
+        },
+        "specificity": {
+          "mean": 0.6674272543935464,
+          "sd": 0.19967219293934213
+        },
+        "auroc": {
+          "mean": 0.6580045960408352,
+          "sd": 0.14716602750611465
+        },
+        "auprc": {
+          "mean": 0.782761155775621,
+          "sd": 0.09088226797466695
+        }
+      },
+      "10": {
+        "macro_f1": {
+          "mean": 0.6055530432166658,
+          "sd": 0.1034062722881226
+        },
+        "sensitivity": {
+          "mean": 0.5761716033931302,
+          "sd": 0.15845005664865539
+        },
+        "specificity": {
+          "mean": 0.710556035724575,
+          "sd": 0.1454906713336667
+        },
+        "auroc": {
+          "mean": 0.7097145187847047,
+          "sd": 0.12551374873289536
+        },
+        "auprc": {
+          "mean": 0.8139516987518594,
+          "sd": 0.0760032716014661
+        }
+      },
+      "20": {
+        "macro_f1": {
+          "mean": 0.6474478607987358,
+          "sd": 0.07965630335740753
+        },
+        "sensitivity": {
+          "mean": 0.6207759699624531,
+          "sd": 0.1270179992994543
+        },
+        "specificity": {
+          "mean": 0.7420858542206857,
+          "sd": 0.09743761357661165
+        },
+        "auroc": {
+          "mean": 0.7582398650382506,
+          "sd": 0.08600262638650658
+        },
+        "auprc": {
+          "mean": 0.8423125785963101,
+          "sd": 0.05089178324855295
+        }
+      }
+    }
+  },
+  "detector": {
+    "method": "YOLO11n_full_detection_supervision",
+    "train_images": 205,
+    "validation_images": 87,
+    "max_epochs": 50,
+    "best_checkpoint": "/home/thinhnd39/yolo_fewshot/runs/baseline_v1/yolo/train/weights/best.pt",
+    "checkpoint_sha256": "93346bf2a594cf8725c58da72735ef3b35c1aac9ec683e400046044b080c03d9",
+    "validation": {
+      "metrics/precision(B)": 0.9445004292212451,
+      "metrics/recall(B)": 0.9780655524643634,
+      "metrics/mAP50(B)": 0.9866870516089155,
+      "metrics/mAP50-95(B)": 0.7840285692391651,
+      "fitness": 0.7840285692391651
+    },
+    "test_used": false,
+    "memory": {
+      "device": "NVIDIA H200",
+      "peak_allocated_gib": 1.9119691848754883,
+      "peak_reserved_gib": 2.46484375,
+      "allocator_limit_gib": 16
+    }
+  },
+  "pipeline_demo": {
+    "results": [
+      {
+        "sample_id": "bccd:BloodImage_00000",
+        "cells": [
+          {
+            "box_xyxy": [
+              260,
+              177,
+              495,
+              370
+            ],
+            "wbc_confidence": 0.8191295266151428,
+            "abnormal_score_uncalibrated": 0.502869188785553,
+            "label": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "bccd:BloodImage_00002",
+        "cells": [
+          {
+            "box_xyxy": [
+              326,
+              2,
+              536,
+              104
+            ],
+            "wbc_confidence": 0.7524535655975342,
+            "abnormal_score_uncalibrated": 0.5012084245681763,
+            "label": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "bccd:BloodImage_00014",
+        "cells": [
+          {
+            "box_xyxy": [
+              230,
+              205,
+              395,
+              350
+            ],
+            "wbc_confidence": 0.7605275511741638,
+            "abnormal_score_uncalibrated": 0.5026902556419373,
+            "label": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "bccd:BloodImage_00017",
+        "cells": [
+          {
+            "box_xyxy": [
+              123,
+              206,
+              332,
+              397
+            ],
+            "wbc_confidence": 0.8599812388420105,
+            "abnormal_score_uncalibrated": 0.5023344159126282,
+            "label": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "bccd:BloodImage_00028",
+        "cells": [
+          {
+            "box_xyxy": [
+              252,
+              1,
+              427,
+              159
+            ],
+            "wbc_confidence": 0.8001713156700134,
+            "abnormal_score_uncalibrated": 0.5032421350479126,
+            "label": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "bccd:BloodImage_00029",
+        "cells": [
+          {
+            "box_xyxy": [
+              71,
+              166,
+              231,
+              316
+            ],
+            "wbc_confidence": 0.7574842572212219,
+            "abnormal_score_uncalibrated": 0.5020428895950317,
+            "label": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "bccd:BloodImage_00030",
+        "cells": [
+          {
+            "box_xyxy": [
+              0,
+              187,
+              141,
+              337
+            ],
+            "wbc_confidence": 0.6500480771064758,
+            "abnormal_score_uncalibrated": 0.5008507966995239,
+            "label": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "bccd:BloodImage_00035",
+        "cells": [
+          {
+            "box_xyxy": [
+              175,
+              274,
+              337,
+              427
+            ],
+            "wbc_confidence": 0.7579066753387451,
+            "abnormal_score_uncalibrated": 0.5006475448608398,
+            "label": 1
+          }
+        ]
+      }
+    ],
+    "warning": "Engineering demo only: BCCD has no cell cancer labels and is outside C-NMC classification domain. These are not validated medical predictions."
+  },
+  "completed_epochs": 23
+}

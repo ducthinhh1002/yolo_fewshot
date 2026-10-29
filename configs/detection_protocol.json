@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "task": "single_class_WBC_detection_not_cancer_detection",
+  "class_id": 0,
+  "class_name": "WBC",
+  "episodes": "data/episodes/detection.jsonl",
+  "shots_per_class": [1, 5, 10, 20],
+  "canonical_trials": 300,
+  "support_split": "bccd_train",
+  "support_unit": "one_image_with_exactly_one_annotated_WBC_box",
+  "sampling": "seeded_without_replacement_nested_K",
+  "validation_pilot": {"trial": 0, "query_split": "bccd_val", "query_images": 8, "selection": "first_8_rows_of_fixed_manifest", "purpose": "smoke_test_only"},
+  "final_query": "all_retained_images_in_bccd_test_after_config_freeze",
+  "current_test_access": "not_used",
+  "devit": {"adaptation": "replace_WBC_prototype_from_exact_support_boxes_no_target_finetune", "proposal_source": "official_COCO_pretrained_RPN_not_BCCD_trained_YOLO", "auxiliary_reference_classes": 80, "output_filter": "WBC_only", "external_pretraining_supervision": "official_author_checkpoint_and_reference_prototypes"},
+  "yolo_matched_budget": {"adaptation": "train_only_same_K_support_images_and_K_WBC_boxes", "query": "same_query_manifest_as_devit", "initialization": "generic_pretrained_weights_not_BCCD_finetuned_checkpoint"},
+  "yolo_full_supervision": {"train_images": 205, "role": "separate_full_target_annotation_baseline_not_budget_matched"},
+  "annotation_budget": "all_target_labeled_images_used_for_finetuning_or_support_must_be_counted",
+  "evaluation": {"box_format": "xyxy_zero_based_half_open", "AP": "pycocotools_COCO_bbox_AP50_and_AP50_95_same_query_and_maxDets", "fixed_threshold_diagnostics": {"confidence": 0.25, "IoU": 0.5}, "no_mixing_with": "classification_macro_F1"}
+}

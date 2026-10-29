@@ -10,6 +10,7 @@ import zipfile
 import requests
 
 ROOT = Path(__file__).resolve().parents[1]
+RESOLVED_SOURCES = {}
 SOURCES = {
     'cnmc': ('https://www.kaggle.com/api/v1/datasets/download/andrewmvd/leukemia-classification?datasetVersionNumber=2', 'https://www.kaggle.com/api/v1/datasets/view/andrewmvd/leukemia-classification'),
     'taleqani': ('https://www.kaggle.com/api/v1/datasets/download/mehradaria/leukemia?datasetVersionNumber=1', 'https://www.kaggle.com/api/v1/datasets/view/mehradaria/leukemia'),
@@ -20,11 +21,13 @@ SOURCES = {
 
 def download(name):
     url, metadata_url = SOURCES[name]
+    canonical_url = url
+    url = RESOLVED_SOURCES.get(name, url)
     provenance = ROOT / 'data/provenance'
     provenance.mkdir(parents=True, exist_ok=True)
     archive = ROOT / 'data/downloads' / (name + '.zip')
     archive.parent.mkdir(parents=True, exist_ok=True)
-    if metadata_url:
+    if metadata_url and name not in RESOLVED_SOURCES:
         r = requests.get(metadata_url, timeout=60)
         r.raise_for_status()
         (provenance / (name + '_metadata.json')).write_text(json.dumps(r.json(), ensure_ascii=False, indent=2), encoding='utf-8')
@@ -97,7 +100,7 @@ def download(name):
                 raise ValueError('Unsafe archive member')
             if not target.exists() or target.stat().st_size != member.file_size:
                 z.extract(member, dest)
-    receipt = {'dataset': name, 'requested_url': url, 'sha256': digest, 'archive_bytes': archive.stat().st_size, 'archive_members': len(z.infolist())}
+    receipt = {'dataset': name, 'requested_url': canonical_url, 'sha256': digest, 'archive_bytes': archive.stat().st_size, 'archive_members': len(z.infolist())}
     (provenance / (name + '_download.json')).write_text(json.dumps(receipt, indent=2), encoding='utf-8')
     print(json.dumps(receipt), flush=True)
 
@@ -105,6 +108,9 @@ def download(name):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--datasets', nargs='+', choices=SOURCES, default=['cnmc', 'aml', 'bccd'])
+    parser.add_argument('--resolved-sources', type=Path, help='Temporary resolved public archive URLs when the server cannot access the Kaggle API')
     args = parser.parse_args()
+    if args.resolved_sources:
+        RESOLVED_SOURCES.update(json.loads(args.resolved_sources.read_text()))
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
         list(executor.map(download, args.datasets))

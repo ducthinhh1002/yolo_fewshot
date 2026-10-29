@@ -1,0 +1,22 @@
+{
+  "seed": 20261025,
+  "process_name": "VLLM:Engine",
+  "max_vram_gib": 16,
+  "output": "runs/adaptation_v1",
+  "baseline": "runs/baseline_v1",
+  "dino_model": "facebook/dinov2-small",
+  "dino_revision": "ed25f3a31f01632728cabb09d1542f84ab7b0056",
+  "trials": 30,
+  "shots": [1, 5, 10, 20],
+  "cache_batch": 32,
+  "query_batch": 64,
+  "lora_rank": 4,
+  "lora_alpha": 8,
+  "lora_steps": 15,
+  "lora_lr": 0.001,
+  "head_lr": 0.005,
+  "logit_scale": 10.0,
+  "protonet_steps": 40,
+  "protonet_lr": 0.001,
+  "projection_hidden": 64
+}

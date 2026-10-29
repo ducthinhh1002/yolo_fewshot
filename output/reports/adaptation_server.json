@@ -1,0 +1,3909 @@
+{
+  "host": "ssh-x-lab-0",
+  "comparison": {
+    "summary": {
+      "baseline": {
+        "1": {
+          "macro_f1": {
+            "mean": 0.4612212426370972,
+            "sd": 0.18075787408316923
+          },
+          "sensitivity": {
+            "mean": 0.4397719371436518,
+            "sd": 0.35707093559038333
+          },
+          "specificity": {
+            "mean": 0.659060789397868,
+            "sd": 0.28935433852274334
+          },
+          "auroc": {
+            "mean": 0.6052737642498722,
+            "sd": 0.2080138828735281
+          },
+          "auprc": {
+            "mean": 0.7505172857014931,
+            "sd": 0.1285604605908252
+          },
+          "paired_macro_f1_delta_mean": 0.0,
+          "paired_win_fraction": 0.0
+        },
+        "5": {
+          "macro_f1": {
+            "mean": 0.5431445473787868,
+            "sd": 0.10773669317424725
+          },
+          "sensitivity": {
+            "mean": 0.5233208176887776,
+            "sd": 0.17629777541373962
+          },
+          "specificity": {
+            "mean": 0.6547968885047537,
+            "sd": 0.2394045369719318
+          },
+          "auroc": {
+            "mean": 0.6322326104596078,
+            "sd": 0.1563798896064834
+          },
+          "auprc": {
+            "mean": 0.7661708627486452,
+            "sd": 0.09509877322719007
+          },
+          "paired_macro_f1_delta_mean": 0.0,
+          "paired_win_fraction": 0.0
+        },
+        "10": {
+          "macro_f1": {
+            "mean": 0.6137088703828947,
+            "sd": 0.08958956453379216
+          },
+          "sensitivity": {
+            "mean": 0.5735224586288417,
+            "sd": 0.16128149050111582
+          },
+          "specificity": {
+            "mean": 0.738144626908672,
+            "sd": 0.12669762099122164
+          },
+          "auroc": {
+            "mean": 0.7370460855287393,
+            "sd": 0.08808888294400535
+          },
+          "auprc": {
+            "mean": 0.8309308297754765,
+            "sd": 0.051338818354294116
+          },
+          "paired_macro_f1_delta_mean": 0.0,
+          "paired_win_fraction": 0.0
+        },
+        "20": {
+          "macro_f1": {
+            "mean": 0.6334003353320029,
+            "sd": 0.07010964542533309
+          },
+          "sensitivity": {
+            "mean": 0.5802252816020026,
+            "sd": 0.12351235046775604
+          },
+          "specificity": {
+            "mean": 0.7711610486891386,
+            "sd": 0.07206155122128902
+          },
+          "auroc": {
+            "mean": 0.7625003861183918,
+            "sd": 0.0642623608233432
+          },
+          "auprc": {
+            "mean": 0.8428604769705023,
+            "sd": 0.04129156767345449
+          },
+          "paired_macro_f1_delta_mean": 0.0,
+          "paired_win_fraction": 0.0
+        }
+      },
+      "head_only": {
+        "1": {
+          "macro_f1": {
+            "mean": 0.4586269344270927,
+            "sd": 0.17870768621214653
+          },
+          "sensitivity": {
+            "mean": 0.4362536503963288,
+            "sd": 0.3552257859799663
+          },
+          "specificity": {
+            "mean": 0.6586286372803227,
+            "sd": 0.2892864723040502
+          },
+          "auroc": {
+            "mean": 0.6028512364262106,
+            "sd": 0.2062506221628963
+          },
+          "auprc": {
+            "mean": 0.7491720861832383,
+            "sd": 0.12755088649043464
+          },
+          "paired_macro_f1_delta_mean": -0.0025943082100045767,
+          "paired_win_fraction": 0.4
+        },
+        "5": {
+          "macro_f1": {
+            "mean": 0.560667858861192,
+            "sd": 0.10656455125730767
+          },
+          "sensitivity": {
+            "mean": 0.5382700597969684,
+            "sd": 0.14885612753295335
+          },
+          "specificity": {
+            "mean": 0.656352636127917,
+            "sd": 0.1854445183857301
+          },
+          "auroc": {
+            "mean": 0.6408652561596551,
+            "sd": 0.1485850672370652
+          },
+          "auprc": {
+            "mean": 0.7758935823937834,
+            "sd": 0.09076383293998787
+          },
+          "paired_macro_f1_delta_mean": 0.017523311482405206,
+          "paired_win_fraction": 0.6333333333333333
+        },
+        "10": {
+          "macro_f1": {
+            "mean": 0.6263043652357865,
+            "sd": 0.0725063582070769
+          },
+          "sensitivity": {
+            "mean": 0.5909470171047142,
+            "sd": 0.11702107786128513
+          },
+          "specificity": {
+            "mean": 0.7345721694036303,
+            "sd": 0.10153056363397661
+          },
+          "auroc": {
+            "mean": 0.7329910611639175,
+            "sd": 0.08948300529311054
+          },
+          "auprc": {
+            "mean": 0.8298528917331146,
+            "sd": 0.05423944071584805
+          },
+          "paired_macro_f1_delta_mean": 0.012595494852892032,
+          "paired_win_fraction": 0.5666666666666667
+        },
+        "20": {
+          "macro_f1": {
+            "mean": 0.6423464973136351,
+            "sd": 0.07064452925471709
+          },
+          "sensitivity": {
+            "mean": 0.6057154776804339,
+            "sd": 0.10417199933570934
+          },
+          "specificity": {
+            "mean": 0.7505906078939787,
+            "sd": 0.08565854579435568
+          },
+          "auroc": {
+            "mean": 0.7488090366006581,
+            "sd": 0.08551826338698153
+          },
+          "auprc": {
+            "mean": 0.8394820711552092,
+            "sd": 0.05345187641010375
+          },
+          "paired_macro_f1_delta_mean": 0.008946161981632231,
+          "paired_win_fraction": 0.5
+        }
+      },
+      "protonet": {
+        "1": {
+          "macro_f1": {
+            "mean": 0.45727907086289854,
+            "sd": 0.17370070819314234
+          },
+          "sensitivity": {
+            "mean": 0.42540675844806,
+            "sd": 0.3413065296174615
+          },
+          "specificity": {
+            "mean": 0.668135983866321,
+            "sd": 0.29178354478691104
+          },
+          "auroc": {
+            "mean": 0.6031666395632589,
+            "sd": 0.20649332800616316
+          },
+          "auprc": {
+            "mean": 0.7488980248446103,
+            "sd": 0.12697330204751206
+          },
+          "paired_macro_f1_delta_mean": -0.003942171774198672,
+          "paired_win_fraction": 0.4666666666666667
+        },
+        "5": {
+          "macro_f1": {
+            "mean": 0.5585674482282447,
+            "sd": 0.1099342715693044
+          },
+          "sensitivity": {
+            "mean": 0.5539563343067724,
+            "sd": 0.15707311430394877
+          },
+          "specificity": {
+            "mean": 0.6362143474503026,
+            "sd": 0.2142383449846618
+          },
+          "auroc": {
+            "mean": 0.6335690668747439,
+            "sd": 0.15176564799125633
+          },
+          "auprc": {
+            "mean": 0.7693439824993678,
+            "sd": 0.09288050520771846
+          },
+          "paired_macro_f1_delta_mean": 0.015422900849458042,
+          "paired_win_fraction": 0.6666666666666666
+        },
+        "10": {
+          "macro_f1": {
+            "mean": 0.6281049238532901,
+            "sd": 0.0812233842263182
+          },
+          "sensitivity": {
+            "mean": 0.590154359616187,
+            "sd": 0.1346518415459811
+          },
+          "specificity": {
+            "mean": 0.7419475655430712,
+            "sd": 0.09682061553482944
+          },
+          "auroc": {
+            "mean": 0.7392728378061167,
+            "sd": 0.09149557689488833
+          },
+          "auprc": {
+            "mean": 0.8330040327259209,
+            "sd": 0.05526967888458251
+          },
+          "paired_macro_f1_delta_mean": 0.014396053470395565,
+          "paired_win_fraction": 0.5666666666666667
+        },
+        "20": {
+          "macro_f1": {
+            "mean": 0.646222545296005,
+            "sd": 0.07143747603586834
+          },
+          "sensitivity": {
+            "mean": 0.6096787651230706,
+            "sd": 0.11105290390009656
+          },
+          "specificity": {
+            "mean": 0.7547968885047538,
+            "sd": 0.08218029012398093
+          },
+          "auroc": {
+            "mean": 0.7593968596345163,
+            "sd": 0.08098883684759846
+          },
+          "auprc": {
+            "mean": 0.8437094229869769,
+            "sd": 0.05115503510099529
+          },
+          "paired_macro_f1_delta_mean": 0.01282220996400194,
+          "paired_win_fraction": 0.6666666666666666
+        }
+      },
+      "lora": {
+        "1": {
+          "macro_f1": {
+            "mean": 0.4451688408252421,
+            "sd": 0.1759112302300203
+          },
+          "sensitivity": {
+            "mean": 0.41795299680155756,
+            "sd": 0.35447933416527233
+          },
+          "specificity": {
+            "mean": 0.6575626620570442,
+            "sd": 0.29329481574934274
+          },
+          "auroc": {
+            "mean": 0.5953600768847356,
+            "sd": 0.20301824296744678
+          },
+          "auprc": {
+            "mean": 0.7423177529841053,
+            "sd": 0.12576380066089954
+          },
+          "paired_macro_f1_delta_mean": -0.016052401811855157,
+          "paired_win_fraction": 0.43333333333333335
+        },
+        "5": {
+          "macro_f1": {
+            "mean": 0.5573113197605412,
+            "sd": 0.10222571355636406
+          },
+          "sensitivity": {
+            "mean": 0.5243637880684188,
+            "sd": 0.1557173544232245
+          },
+          "specificity": {
+            "mean": 0.6676462114664362,
+            "sd": 0.16174680696422414
+          },
+          "auroc": {
+            "mean": 0.6416435686738453,
+            "sd": 0.13891560553386703
+          },
+          "auprc": {
+            "mean": 0.773124556861592,
+            "sd": 0.0866785340967672
+          },
+          "paired_macro_f1_delta_mean": 0.014166772381754265,
+          "paired_win_fraction": 0.4666666666666667
+        },
+        "10": {
+          "macro_f1": {
+            "mean": 0.6202721241951195,
+            "sd": 0.06587984786267771
+          },
+          "sensitivity": {
+            "mean": 0.5837435683493255,
+            "sd": 0.11332676284456006
+          },
+          "specificity": {
+            "mean": 0.7306828003457216,
+            "sd": 0.10098750274030388
+          },
+          "auroc": {
+            "mean": 0.7274200789015656,
+            "sd": 0.08406299240689631
+          },
+          "auprc": {
+            "mean": 0.8258467513622985,
+            "sd": 0.052898791617158346
+          },
+          "paired_macro_f1_delta_mean": 0.006563253812224788,
+          "paired_win_fraction": 0.5333333333333333
+        },
+        "20": {
+          "macro_f1": {
+            "mean": 0.6451242007366702,
+            "sd": 0.07192740693113922
+          },
+          "sensitivity": {
+            "mean": 0.6234598804060631,
+            "sd": 0.10894640014032657
+          },
+          "specificity": {
+            "mean": 0.7291270527225584,
+            "sd": 0.08772863429220772
+          },
+          "auroc": {
+            "mean": 0.7437151644587904,
+            "sd": 0.08500479052219073
+          },
+          "auprc": {
+            "mean": 0.8375565068701584,
+            "sd": 0.053869011882370636
+          },
+          "paired_macro_f1_delta_mean": 0.011723865404667156,
+          "paired_win_fraction": 0.5333333333333333
+        }
+      }
+    },
+    "trials": 30,
+    "query": "cnmc_val",
+    "test_used": false,
+    "lora_trainable_adapter_parameters": 6144,
+    "lora_head_parameters": 768,
+    "memory": {
+      "device": "NVIDIA H200",
+      "peak_allocated_gib": 3.0236802101135254,
+      "peak_reserved_gib": 3.20703125,
+      "allocator_limit_gib": 16
+    },
+    "config": {
+      "seed": 20261025,
+      "process_name": "VLLM:Engine",
+      "max_vram_gib": 16,
+      "output": "runs/adaptation_v1",
+      "baseline": "runs/baseline_v1",
+      "dino_model": "facebook/dinov2-small",
+      "dino_revision": "ed25f3a31f01632728cabb09d1542f84ab7b0056",
+      "trials": 30,
+      "shots": [
+        1,
+        5,
+        10,
+        20
+      ],
+      "cache_batch": 32,
+      "query_batch": 64,
+      "lora_rank": 4,
+      "lora_alpha": 8,
+      "lora_steps": 15,
+      "lora_lr": 0.001,
+      "head_lr": 0.005,
+      "logit_scale": 10.0,
+      "protonet_steps": 40,
+      "protonet_lr": 0.001,
+      "projection_hidden": 64
+    }
+  },
+  "classification_errors": {
+    "baseline": {
+      "shots_per_class": 20,
+      "trials": 30,
+      "average_confusion_tn_fp_fn_tp": [
+        892.2333333333333,
+        264.76666666666665,
+        1006.2,
+        1390.8
+      ],
+      "cells_wrong_in_every_trial": 7,
+      "cells_error_frequency_at_least_80pct": 349,
+      "patient_error_rates": [
+        {
+          "patient_id": "cnmc:all:34",
+          "images": 352,
+          "mean_cell_error_frequency": 0.5105113636363636
+        },
+        {
+          "patient_id": "cnmc:all:33",
+          "images": 181,
+          "mean_cell_error_frequency": 0.5104972375690608
+        },
+        {
+          "patient_id": "cnmc:all:30",
+          "images": 201,
+          "mean_cell_error_frequency": 0.4913764510779436
+        },
+        {
+          "patient_id": "cnmc:all:23",
+          "images": 97,
+          "mean_cell_error_frequency": 0.4855670103092783
+        },
+        {
+          "patient_id": "cnmc:all:44",
+          "images": 146,
+          "mean_cell_error_frequency": 0.47694063926940644
+        },
+        {
+          "patient_id": "cnmc:all:38",
+          "images": 145,
+          "mean_cell_error_frequency": 0.4737931034482758
+        },
+        {
+          "patient_id": "cnmc:all:2",
+          "images": 84,
+          "mean_cell_error_frequency": 0.4297619047619047
+        },
+        {
+          "patient_id": "cnmc:all:32",
+          "images": 212,
+          "mean_cell_error_frequency": 0.40628930817610065
+        },
+        {
+          "patient_id": "cnmc:all:16",
+          "images": 53,
+          "mean_cell_error_frequency": 0.3773584905660378
+        },
+        {
+          "patient_id": "cnmc:all:51",
+          "images": 736,
+          "mean_cell_error_frequency": 0.3607336956521739
+        },
+        {
+          "patient_id": "cnmc:hem:H10",
+          "images": 399,
+          "mean_cell_error_frequency": 0.25914786967418546
+        },
+        {
+          "patient_id": "cnmc:all:46",
+          "images": 190,
+          "mean_cell_error_frequency": 0.22192982456140353
+        },
+        {
+          "patient_id": "cnmc:hem:H22",
+          "images": 373,
+          "mean_cell_error_frequency": 0.21671134941912423
+        },
+        {
+          "patient_id": "cnmc:hem:H14",
+          "images": 385,
+          "mean_cell_error_frequency": 0.20917748917748918
+        }
+      ]
+    },
+    "head_only": {
+      "shots_per_class": 20,
+      "trials": 30,
+      "average_confusion_tn_fp_fn_tp": [
+        868.4333333333333,
+        288.56666666666666,
+        945.1,
+        1451.9
+      ],
+      "cells_wrong_in_every_trial": 9,
+      "cells_error_frequency_at_least_80pct": 207,
+      "patient_error_rates": [
+        {
+          "patient_id": "cnmc:all:30",
+          "images": 201,
+          "mean_cell_error_frequency": 0.4794361525704809
+        },
+        {
+          "patient_id": "cnmc:all:44",
+          "images": 146,
+          "mean_cell_error_frequency": 0.46552511415525116
+        },
+        {
+          "patient_id": "cnmc:all:34",
+          "images": 352,
+          "mean_cell_error_frequency": 0.45066287878787875
+        },
+        {
+          "patient_id": "cnmc:all:33",
+          "images": 181,
+          "mean_cell_error_frequency": 0.43922651933701656
+        },
+        {
+          "patient_id": "cnmc:all:51",
+          "images": 736,
+          "mean_cell_error_frequency": 0.3919836956521739
+        },
+        {
+          "patient_id": "cnmc:all:32",
+          "images": 212,
+          "mean_cell_error_frequency": 0.37877358490566043
+        },
+        {
+          "patient_id": "cnmc:all:2",
+          "images": 84,
+          "mean_cell_error_frequency": 0.35317460317460314
+        },
+        {
+          "patient_id": "cnmc:all:38",
+          "images": 145,
+          "mean_cell_error_frequency": 0.3462068965517241
+        },
+        {
+          "patient_id": "cnmc:all:23",
+          "images": 97,
+          "mean_cell_error_frequency": 0.3309278350515464
+        },
+        {
+          "patient_id": "cnmc:hem:H10",
+          "images": 399,
+          "mean_cell_error_frequency": 0.3039264828738513
+        },
+        {
+          "patient_id": "cnmc:all:16",
+          "images": 53,
+          "mean_cell_error_frequency": 0.26981132075471703
+        },
+        {
+          "patient_id": "cnmc:all:46",
+          "images": 190,
+          "mean_cell_error_frequency": 0.25035087719298244
+        },
+        {
+          "patient_id": "cnmc:hem:H22",
+          "images": 373,
+          "mean_cell_error_frequency": 0.22600536193029494
+        },
+        {
+          "patient_id": "cnmc:hem:H14",
+          "images": 385,
+          "mean_cell_error_frequency": 0.21558441558441557
+        }
+      ]
+    },
+    "protonet": {
+      "shots_per_class": 20,
+      "trials": 30,
+      "average_confusion_tn_fp_fn_tp": [
+        873.3,
+        283.7,
+        935.6,
+        1461.4
+      ],
+      "cells_wrong_in_every_trial": 11,
+      "cells_error_frequency_at_least_80pct": 240,
+      "patient_error_rates": [
+        {
+          "patient_id": "cnmc:all:34",
+          "images": 352,
+          "mean_cell_error_frequency": 0.4690340909090909
+        },
+        {
+          "patient_id": "cnmc:all:30",
+          "images": 201,
+          "mean_cell_error_frequency": 0.46600331674958534
+        },
+        {
+          "patient_id": "cnmc:all:33",
+          "images": 181,
+          "mean_cell_error_frequency": 0.4535911602209946
+        },
+        {
+          "patient_id": "cnmc:all:44",
+          "images": 146,
+          "mean_cell_error_frequency": 0.45159817351598175
+        },
+        {
+          "patient_id": "cnmc:all:23",
+          "images": 97,
+          "mean_cell_error_frequency": 0.39759450171821303
+        },
+        {
+          "patient_id": "cnmc:all:2",
+          "images": 84,
+          "mean_cell_error_frequency": 0.375
+        },
+        {
+          "patient_id": "cnmc:all:38",
+          "images": 145,
+          "mean_cell_error_frequency": 0.3747126436781609
+        },
+        {
+          "patient_id": "cnmc:all:32",
+          "images": 212,
+          "mean_cell_error_frequency": 0.3712264150943397
+        },
+        {
+          "patient_id": "cnmc:all:51",
+          "images": 736,
+          "mean_cell_error_frequency": 0.3622735507246377
+        },
+        {
+          "patient_id": "cnmc:all:16",
+          "images": 53,
+          "mean_cell_error_frequency": 0.3119496855345912
+        },
+        {
+          "patient_id": "cnmc:hem:H10",
+          "images": 399,
+          "mean_cell_error_frequency": 0.29390142021720966
+        },
+        {
+          "patient_id": "cnmc:hem:H22",
+          "images": 373,
+          "mean_cell_error_frequency": 0.22484361036639858
+        },
+        {
+          "patient_id": "cnmc:all:46",
+          "images": 190,
+          "mean_cell_error_frequency": 0.223859649122807
+        },
+        {
+          "patient_id": "cnmc:hem:H14",
+          "images": 385,
+          "mean_cell_error_frequency": 0.21445887445887446
+        }
+      ]
+    },
+    "lora": {
+      "shots_per_class": 20,
+      "trials": 30,
+      "average_confusion_tn_fp_fn_tp": [
+        843.6,
+        313.4,
+        902.5666666666667,
+        1494.4333333333334
+      ],
+      "cells_wrong_in_every_trial": 2,
+      "cells_error_frequency_at_least_80pct": 174,
+      "patient_error_rates": [
+        {
+          "patient_id": "cnmc:all:44",
+          "images": 146,
+          "mean_cell_error_frequency": 0.4426940639269406
+        },
+        {
+          "patient_id": "cnmc:all:30",
+          "images": 201,
+          "mean_cell_error_frequency": 0.4295190713101161
+        },
+        {
+          "patient_id": "cnmc:all:33",
+          "images": 181,
+          "mean_cell_error_frequency": 0.4263351749539595
+        },
+        {
+          "patient_id": "cnmc:all:34",
+          "images": 352,
+          "mean_cell_error_frequency": 0.4193181818181818
+        },
+        {
+          "patient_id": "cnmc:all:32",
+          "images": 212,
+          "mean_cell_error_frequency": 0.3823899371069182
+        },
+        {
+          "patient_id": "cnmc:all:51",
+          "images": 736,
+          "mean_cell_error_frequency": 0.3803894927536232
+        },
+        {
+          "patient_id": "cnmc:all:2",
+          "images": 84,
+          "mean_cell_error_frequency": 0.3666666666666667
+        },
+        {
+          "patient_id": "cnmc:all:38",
+          "images": 145,
+          "mean_cell_error_frequency": 0.34528735632183905
+        },
+        {
+          "patient_id": "cnmc:hem:H10",
+          "images": 399,
+          "mean_cell_error_frequency": 0.34001670843776105
+        },
+        {
+          "patient_id": "cnmc:all:23",
+          "images": 97,
+          "mean_cell_error_frequency": 0.2759450171821306
+        },
+        {
+          "patient_id": "cnmc:all:16",
+          "images": 53,
+          "mean_cell_error_frequency": 0.24465408805031447
+        },
+        {
+          "patient_id": "cnmc:all:46",
+          "images": 190,
+          "mean_cell_error_frequency": 0.23789473684210527
+        },
+        {
+          "patient_id": "cnmc:hem:H14",
+          "images": 385,
+          "mean_cell_error_frequency": 0.23480519480519482
+        },
+        {
+          "patient_id": "cnmc:hem:H22",
+          "images": 373,
+          "mean_cell_error_frequency": 0.23413762287756928
+        }
+      ]
+    },
+    "strata_associations_not_causal": [
+      {
+        "property": "foreground_occupancy",
+        "label": 0,
+        "quartile": 1,
+        "images": 725,
+        "mean_baseline_error_frequency": 0.12740229885057472
+      },
+      {
+        "property": "foreground_occupancy",
+        "label": 0,
+        "quartile": 2,
+        "images": 279,
+        "mean_baseline_error_frequency": 0.29163679808841103
+      },
+      {
+        "property": "foreground_occupancy",
+        "label": 0,
+        "quartile": 3,
+        "images": 80,
+        "mean_baseline_error_frequency": 0.5416666666666667
+      },
+      {
+        "property": "foreground_occupancy",
+        "label": 0,
+        "quartile": 4,
+        "images": 73,
+        "mean_baseline_error_frequency": 0.6534246575342466
+      },
+      {
+        "property": "foreground_occupancy",
+        "label": 1,
+        "quartile": 1,
+        "images": 164,
+        "mean_baseline_error_frequency": 0.6788617886178863
+      },
+      {
+        "property": "foreground_occupancy",
+        "label": 1,
+        "quartile": 2,
+        "images": 609,
+        "mean_baseline_error_frequency": 0.5395183360700603
+      },
+      {
+        "property": "foreground_occupancy",
+        "label": 1,
+        "quartile": 3,
+        "images": 808,
+        "mean_baseline_error_frequency": 0.411509900990099
+      },
+      {
+        "property": "foreground_occupancy",
+        "label": 1,
+        "quartile": 4,
+        "images": 816,
+        "mean_baseline_error_frequency": 0.28651960784313724
+      },
+      {
+        "property": "foreground_brightness",
+        "label": 0,
+        "quartile": 1,
+        "images": 550,
+        "mean_baseline_error_frequency": 0.15993939393939394
+      },
+      {
+        "property": "foreground_brightness",
+        "label": 0,
+        "quartile": 2,
+        "images": 306,
+        "mean_baseline_error_frequency": 0.22777777777777777
+      },
+      {
+        "property": "foreground_brightness",
+        "label": 0,
+        "quartile": 3,
+        "images": 200,
+        "mean_baseline_error_frequency": 0.31483333333333335
+      },
+      {
+        "property": "foreground_brightness",
+        "label": 0,
+        "quartile": 4,
+        "images": 101,
+        "mean_baseline_error_frequency": 0.4369636963696369
+      },
+      {
+        "property": "foreground_brightness",
+        "label": 1,
+        "quartile": 1,
+        "images": 339,
+        "mean_baseline_error_frequency": 0.5333333333333333
+      },
+      {
+        "property": "foreground_brightness",
+        "label": 1,
+        "quartile": 2,
+        "images": 582,
+        "mean_baseline_error_frequency": 0.4412371134020619
+      },
+      {
+        "property": "foreground_brightness",
+        "label": 1,
+        "quartile": 3,
+        "images": 688,
+        "mean_baseline_error_frequency": 0.41627906976744183
+      },
+      {
+        "property": "foreground_brightness",
+        "label": 1,
+        "quartile": 4,
+        "images": 788,
+        "mean_baseline_error_frequency": 0.3581218274111675
+      }
+    ]
+  },
+  "detection_errors": {
+    "confidence_threshold": 0.25,
+    "matching": "confidence_sorted_greedy_one_to_one",
+    "validation_images": 87,
+    "totals": {
+      "0.5": {
+        "tp": 87,
+        "fp": 18,
+        "fn": 0,
+        "precision": 0.8285714285714286,
+        "recall": 1.0
+      },
+      "0.75": {
+        "tp": 84,
+        "fp": 21,
+        "fn": 3,
+        "precision": 0.8,
+        "recall": 0.9655172413793104
+      }
+    },
+    "cases": [
+      {
+        "sample_id": "bccd:BloodImage_00000",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00000.jpg",
+        "ground_truth": [
+          [
+            259.0,
+            176.0,
+            491.0,
+            376.0
+          ]
+        ],
+        "predictions": [
+          [
+            260.25830078125,
+            176.5262451171875,
+            494.56024169921875,
+            369.92535400390625,
+            0.8191295266151428
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00002",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00002.jpg",
+        "ground_truth": [
+          [
+            282.0,
+            0.0,
+            567.0,
+            106.0
+          ]
+        ],
+        "predictions": [
+          [
+            326.20263671875,
+            1.844268798828125,
+            535.6073608398438,
+            104.4756851196289,
+            0.7524535655975342
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 0,
+            "fp": 1,
+            "fn": 1
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00014",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00014.jpg",
+        "ground_truth": [
+          [
+            235.0,
+            210.0,
+            379.0,
+            353.0
+          ]
+        ],
+        "predictions": [
+          [
+            229.8542938232422,
+            205.1227264404297,
+            394.80828857421875,
+            349.63983154296875,
+            0.7605275511741638
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00017",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00017.jpg",
+        "ground_truth": [
+          [
+            127.0,
+            214.0,
+            336.0,
+            391.0
+          ]
+        ],
+        "predictions": [
+          [
+            123.03851318359375,
+            205.91453552246094,
+            331.9290466308594,
+            397.208984375,
+            0.8599812388420105
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00028",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00028.jpg",
+        "ground_truth": [
+          [
+            254.0,
+            0.0,
+            430.0,
+            160.0
+          ]
+        ],
+        "predictions": [
+          [
+            252.47650146484375,
+            1.1286773681640625,
+            426.90570068359375,
+            159.3179168701172,
+            0.8001713156700134
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00029",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00029.jpg",
+        "ground_truth": [
+          [
+            74.0,
+            178.0,
+            224.0,
+            315.0
+          ]
+        ],
+        "predictions": [
+          [
+            70.69525146484375,
+            166.22500610351562,
+            231.25845336914062,
+            316.2701721191406,
+            0.7574842572212219
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00030",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00030.jpg",
+        "ground_truth": [
+          [
+            0.0,
+            190.0,
+            143.0,
+            333.0
+          ]
+        ],
+        "predictions": [
+          [
+            0.0,
+            187.09194946289062,
+            140.90000915527344,
+            337.2835998535156,
+            0.6500480771064758
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00035",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00035.jpg",
+        "ground_truth": [
+          [
+            182.0,
+            284.0,
+            334.0,
+            425.0
+          ]
+        ],
+        "predictions": [
+          [
+            175.15777587890625,
+            273.501953125,
+            336.69586181640625,
+            427.041748046875,
+            0.7579066753387451
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00037",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00037.jpg",
+        "ground_truth": [
+          [
+            420.0,
+            301.0,
+            541.0,
+            420.0
+          ]
+        ],
+        "predictions": [
+          [
+            419.18768310546875,
+            300.19158935546875,
+            542.4262084960938,
+            416.7091064453125,
+            0.8789471387863159
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00053",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00053.jpg",
+        "ground_truth": [
+          [
+            105.0,
+            11.0,
+            242.0,
+            143.0
+          ]
+        ],
+        "predictions": [
+          [
+            104.00151062011719,
+            12.545852661132812,
+            244.9492950439453,
+            136.42413330078125,
+            0.8049712181091309
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00055",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00055.jpg",
+        "ground_truth": [
+          [
+            152.0,
+            133.0,
+            275.0,
+            258.0
+          ]
+        ],
+        "predictions": [
+          [
+            156.09371948242188,
+            141.850830078125,
+            271.17242431640625,
+            245.30331420898438,
+            0.8409513831138611
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00064",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00064.jpg",
+        "ground_truth": [
+          [
+            27.0,
+            128.0,
+            172.0,
+            243.0
+          ]
+        ],
+        "predictions": [
+          [
+            30.6182861328125,
+            124.98709106445312,
+            172.628173828125,
+            247.86566162109375,
+            0.851737380027771
+          ],
+          [
+            461.5953369140625,
+            198.64686584472656,
+            619.8323974609375,
+            341.2188720703125,
+            0.2613431215286255
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 1,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 1,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00066",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00066.jpg",
+        "ground_truth": [
+          [
+            434.0,
+            193.0,
+            577.0,
+            329.0
+          ]
+        ],
+        "predictions": [
+          [
+            425.34783935546875,
+            188.52996826171875,
+            587.8598022460938,
+            333.3033447265625,
+            0.7642010450363159
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00072",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00072.jpg",
+        "ground_truth": [
+          [
+            188.0,
+            287.0,
+            314.0,
+            408.0
+          ]
+        ],
+        "predictions": [
+          [
+            189.79156494140625,
+            280.8497009277344,
+            320.2613525390625,
+            410.1013488769531,
+            0.8073025941848755
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00073",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00073.jpg",
+        "ground_truth": [
+          [
+            210.0,
+            48.0,
+            353.0,
+            177.0
+          ]
+        ],
+        "predictions": [
+          [
+            208.4169158935547,
+            42.78584289550781,
+            352.77569580078125,
+            172.98251342773438,
+            0.7899392247200012
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00089",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00089.jpg",
+        "ground_truth": [
+          [
+            305.0,
+            235.0,
+            451.0,
+            374.0
+          ]
+        ],
+        "predictions": [
+          [
+            300.1146240234375,
+            226.15292358398438,
+            460.353515625,
+            375.1286926269531,
+            0.7347114086151123
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00099",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00099.jpg",
+        "ground_truth": [
+          [
+            223.0,
+            228.0,
+            384.0,
+            345.0
+          ]
+        ],
+        "predictions": [
+          [
+            218.054931640625,
+            223.2256317138672,
+            382.43182373046875,
+            347.58099365234375,
+            0.7896106243133545
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00104",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00104.jpg",
+        "ground_truth": [
+          [
+            258.0,
+            258.0,
+            492.0,
+            464.0
+          ]
+        ],
+        "predictions": [
+          [
+            252.91038513183594,
+            246.40200805664062,
+            485.2347412109375,
+            465.5870056152344,
+            0.7757243514060974
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00109",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00109.jpg",
+        "ground_truth": [
+          [
+            362.0,
+            250.0,
+            519.0,
+            421.0
+          ]
+        ],
+        "predictions": [
+          [
+            342.0125732421875,
+            246.00872802734375,
+            526.4610595703125,
+            429.14630126953125,
+            0.8173915147781372
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00111",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00111.jpg",
+        "ground_truth": [
+          [
+            141.0,
+            377.0,
+            258.0,
+            480.0
+          ]
+        ],
+        "predictions": [
+          [
+            135.22320556640625,
+            379.0611572265625,
+            251.84490966796875,
+            480.0,
+            0.8149351477622986
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00115",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00115.jpg",
+        "ground_truth": [
+          [
+            199.0,
+            246.0,
+            356.0,
+            396.0
+          ]
+        ],
+        "predictions": [
+          [
+            192.2490692138672,
+            241.68255615234375,
+            359.89642333984375,
+            397.97900390625,
+            0.7913203239440918
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00125",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00125.jpg",
+        "ground_truth": [
+          [
+            103.0,
+            148.0,
+            275.0,
+            302.0
+          ]
+        ],
+        "predictions": [
+          [
+            110.90087890625,
+            141.64306640625,
+            268.9050598144531,
+            299.30413818359375,
+            0.7769514918327332
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00130",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00130.jpg",
+        "ground_truth": [
+          [
+            237.0,
+            52.0,
+            414.0,
+            210.0
+          ]
+        ],
+        "predictions": [
+          [
+            237.9945831298828,
+            45.045440673828125,
+            400.50616455078125,
+            205.63125610351562,
+            0.7813554406166077
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00140",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00140.jpg",
+        "ground_truth": [
+          [
+            238.0,
+            99.0,
+            375.0,
+            242.0
+          ]
+        ],
+        "predictions": [
+          [
+            242.574951171875,
+            95.96348571777344,
+            376.24493408203125,
+            229.7162628173828,
+            0.8430280685424805
+          ],
+          [
+            36.14720153808594,
+            336.04693603515625,
+            219.54306030273438,
+            469.91436767578125,
+            0.293288916349411
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 1,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 1,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00143",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00143.jpg",
+        "ground_truth": [
+          [
+            39.0,
+            40.0,
+            222.0,
+            206.0
+          ]
+        ],
+        "predictions": [
+          [
+            37.607635498046875,
+            44.027557373046875,
+            206.60067749023438,
+            202.31219482421875,
+            0.8183271884918213
+          ],
+          [
+            332.82647705078125,
+            38.238128662109375,
+            525.4509887695312,
+            186.39605712890625,
+            0.3608739674091339
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 1,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 1,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00145",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00145.jpg",
+        "ground_truth": [
+          [
+            299.0,
+            352.0,
+            459.0,
+            480.0
+          ]
+        ],
+        "predictions": [
+          [
+            287.4156494140625,
+            338.9164123535156,
+            472.9488525390625,
+            480.0,
+            0.7712705135345459
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00147",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00147.jpg",
+        "ground_truth": [
+          [
+            338.0,
+            41.0,
+            514.0,
+            207.0
+          ]
+        ],
+        "predictions": [
+          [
+            333.2005615234375,
+            42.61436462402344,
+            516.53466796875,
+            204.98475646972656,
+            0.8030312061309814
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00148",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00148.jpg",
+        "ground_truth": [
+          [
+            254.0,
+            186.0,
+            406.0,
+            321.0
+          ]
+        ],
+        "predictions": [
+          [
+            255.84169006347656,
+            186.26828002929688,
+            402.2103271484375,
+            304.47186279296875,
+            0.8026907444000244
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00152",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00152.jpg",
+        "ground_truth": [
+          [
+            127.0,
+            30.0,
+            281.0,
+            172.0
+          ]
+        ],
+        "predictions": [
+          [
+            117.28897094726562,
+            22.94061279296875,
+            289.77001953125,
+            176.5221710205078,
+            0.75235515832901
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00162",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00162.jpg",
+        "ground_truth": [
+          [
+            109.0,
+            293.0,
+            351.0,
+            479.0
+          ]
+        ],
+        "predictions": [
+          [
+            120.84063720703125,
+            297.2131652832031,
+            353.2658996582031,
+            480.0,
+            0.8295850157737732
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00183",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00183.jpg",
+        "ground_truth": [
+          [
+            250.0,
+            90.0,
+            471.0,
+            306.0
+          ]
+        ],
+        "predictions": [
+          [
+            240.41119384765625,
+            91.5892333984375,
+            466.929443359375,
+            301.1313781738281,
+            0.8152714371681213
+          ],
+          [
+            126.63449096679688,
+            200.87789916992188,
+            281.1617126464844,
+            387.9947814941406,
+            0.32792121171951294
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 1,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 1,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00192",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00192.jpg",
+        "ground_truth": [
+          [
+            411.0,
+            176.0,
+            613.0,
+            355.0
+          ]
+        ],
+        "predictions": [
+          [
+            405.8782958984375,
+            173.22361755371094,
+            617.0157470703125,
+            363.0401611328125,
+            0.8596276640892029
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00193",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00193.jpg",
+        "ground_truth": [
+          [
+            359.0,
+            123.0,
+            571.0,
+            317.0
+          ],
+          [
+            417.0,
+            381.0,
+            640.0,
+            479.0
+          ]
+        ],
+        "predictions": [
+          [
+            361.64642333984375,
+            115.3154296875,
+            578.9407348632812,
+            315.7269287109375,
+            0.790399432182312
+          ],
+          [
+            417.5205078125,
+            366.8311767578125,
+            640.0,
+            480.0,
+            0.7892240285873413
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00207",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00207.jpg",
+        "ground_truth": [
+          [
+            423.0,
+            307.0,
+            639.0,
+            480.0
+          ]
+        ],
+        "predictions": [
+          [
+            420.9548645019531,
+            302.6846923828125,
+            640.0,
+            480.0,
+            0.8146963119506836
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00209",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00209.jpg",
+        "ground_truth": [
+          [
+            284.0,
+            224.0,
+            474.0,
+            407.0
+          ]
+        ],
+        "predictions": [
+          [
+            276.27435302734375,
+            213.65333557128906,
+            486.53631591796875,
+            400.4464111328125,
+            0.8159719109535217
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00216",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00216.jpg",
+        "ground_truth": [
+          [
+            273.0,
+            100.0,
+            473.0,
+            334.0
+          ]
+        ],
+        "predictions": [
+          [
+            269.39453125,
+            107.9072036743164,
+            483.2862548828125,
+            332.0583190917969,
+            0.8181514739990234
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00217",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00217.jpg",
+        "ground_truth": [
+          [
+            72.0,
+            241.0,
+            234.0,
+            391.0
+          ]
+        ],
+        "predictions": [
+          [
+            80.6834716796875,
+            249.34864807128906,
+            222.00103759765625,
+            382.340087890625,
+            0.7936140894889832
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00218",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00218.jpg",
+        "ground_truth": [
+          [
+            414.0,
+            223.0,
+            606.0,
+            400.0
+          ]
+        ],
+        "predictions": [
+          [
+            405.4031982421875,
+            212.7660369873047,
+            619.5797119140625,
+            399.37493896484375,
+            0.8317172527313232
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00219",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00219.jpg",
+        "ground_truth": [
+          [
+            325.0,
+            0.0,
+            558.0,
+            243.0
+          ]
+        ],
+        "predictions": [
+          [
+            327.7835693359375,
+            0.53094482421875,
+            557.6021728515625,
+            237.76055908203125,
+            0.818941593170166
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00221",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00221.jpg",
+        "ground_truth": [
+          [
+            271.0,
+            136.0,
+            473.0,
+            354.0
+          ]
+        ],
+        "predictions": [
+          [
+            260.966064453125,
+            141.059326171875,
+            475.0306396484375,
+            348.0685119628906,
+            0.8303239345550537
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00222",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00222.jpg",
+        "ground_truth": [
+          [
+            139.0,
+            26.0,
+            340.0,
+            230.0
+          ]
+        ],
+        "predictions": [
+          [
+            125.62993621826172,
+            14.3072509765625,
+            334.87060546875,
+            230.3570556640625,
+            0.823123037815094
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00223",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00223.jpg",
+        "ground_truth": [
+          [
+            250.0,
+            0.0,
+            458.0,
+            173.0
+          ]
+        ],
+        "predictions": [
+          [
+            232.71343994140625,
+            0.662322998046875,
+            475.62677001953125,
+            156.49282836914062,
+            0.8166965246200562
+          ],
+          [
+            232.3897247314453,
+            0.908538818359375,
+            478.81988525390625,
+            101.32533264160156,
+            0.4913894236087799
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 1,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 1,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00228",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00228.jpg",
+        "ground_truth": [],
+        "predictions": [
+          [
+            248.7847900390625,
+            3.7913818359375,
+            455.23583984375,
+            153.08541870117188,
+            0.7608359456062317
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 0,
+            "fp": 1,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 0,
+            "fp": 1,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00230",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00230.jpg",
+        "ground_truth": [
+          [
+            195.0,
+            56.0,
+            413.0,
+            272.0
+          ]
+        ],
+        "predictions": [
+          [
+            192.2822265625,
+            47.747314453125,
+            419.04827880859375,
+            256.6961669921875,
+            0.7942002415657043
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00236",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00236.jpg",
+        "ground_truth": [
+          [
+            189.0,
+            210.0,
+            434.0,
+            434.0
+          ]
+        ],
+        "predictions": [
+          [
+            198.51992797851562,
+            203.95123291015625,
+            441.2115173339844,
+            435.07861328125,
+            0.8401608467102051
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00241",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00241.jpg",
+        "ground_truth": [
+          [
+            248.0,
+            24.0,
+            446.0,
+            205.0
+          ]
+        ],
+        "predictions": [
+          [
+            243.2928009033203,
+            15.71484375,
+            449.07086181640625,
+            204.8509521484375,
+            0.8370290994644165
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00244",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00244.jpg",
+        "ground_truth": [
+          [
+            325.0,
+            35.0,
+            538.0,
+            230.0
+          ]
+        ],
+        "predictions": [
+          [
+            324.906494140625,
+            32.0054931640625,
+            547.472412109375,
+            238.41647338867188,
+            0.8260876536369324
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00245",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00245.jpg",
+        "ground_truth": [
+          [
+            76.0,
+            153.0,
+            281.0,
+            357.0
+          ]
+        ],
+        "predictions": [
+          [
+            72.22296142578125,
+            147.6771240234375,
+            294.06048583984375,
+            362.546142578125,
+            0.8106788992881775
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00246",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00246.jpg",
+        "ground_truth": [
+          [
+            131.0,
+            273.0,
+            355.0,
+            480.0
+          ]
+        ],
+        "predictions": [
+          [
+            124.8314208984375,
+            269.8602294921875,
+            348.99310302734375,
+            480.0,
+            0.8037449717521667
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00255",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00255.jpg",
+        "ground_truth": [
+          [
+            282.0,
+            41.0,
+            551.0,
+            294.0
+          ]
+        ],
+        "predictions": [
+          [
+            255.08892822265625,
+            41.65081787109375,
+            554.4591064453125,
+            278.1513671875,
+            0.8049051761627197
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00260",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00260.jpg",
+        "ground_truth": [
+          [
+            204.0,
+            266.0,
+            434.0,
+            480.0
+          ]
+        ],
+        "predictions": [
+          [
+            199.66033935546875,
+            267.6800537109375,
+            435.1461181640625,
+            476.090576171875,
+            0.8135898113250732
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00261",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00261.jpg",
+        "ground_truth": [
+          [
+            273.0,
+            162.0,
+            460.0,
+            350.0
+          ]
+        ],
+        "predictions": [
+          [
+            263.6702880859375,
+            165.02996826171875,
+            460.6964111328125,
+            356.40936279296875,
+            0.8511596918106079
+          ],
+          [
+            299.492431640625,
+            0.0,
+            547.5425415039062,
+            85.08655548095703,
+            0.25208136439323425
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 1,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 1,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00262",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00262.jpg",
+        "ground_truth": [
+          [
+            169.0,
+            267.0,
+            454.0,
+            480.0
+          ]
+        ],
+        "predictions": [
+          [
+            198.05776977539062,
+            301.84588623046875,
+            451.9586486816406,
+            480.0,
+            0.7676888704299927
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 0,
+            "fp": 1,
+            "fn": 1
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00269",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00269.jpg",
+        "ground_truth": [
+          [
+            74.0,
+            10.0,
+            340.0,
+            226.0
+          ]
+        ],
+        "predictions": [
+          [
+            103.98388671875,
+            10.730941772460938,
+            334.8506164550781,
+            224.92669677734375,
+            0.8263096809387207
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00272",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00272.jpg",
+        "ground_truth": [
+          [
+            0.0,
+            216.0,
+            122.0,
+            408.0
+          ]
+        ],
+        "predictions": [
+          [
+            0.0,
+            213.0445556640625,
+            130.931396484375,
+            399.8255615234375,
+            0.8156195282936096
+          ],
+          [
+            233.3446044921875,
+            338.25469970703125,
+            385.90673828125,
+            479.30731201171875,
+            0.3442699909210205
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 1,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 1,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00274",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00274.jpg",
+        "ground_truth": [
+          [
+            187.0,
+            164.0,
+            387.0,
+            366.0
+          ]
+        ],
+        "predictions": [
+          [
+            182.0304718017578,
+            169.44244384765625,
+            392.63507080078125,
+            366.9266357421875,
+            0.8662890791893005
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00277",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00277.jpg",
+        "ground_truth": [
+          [
+            336.0,
+            184.0,
+            492.0,
+            372.0
+          ]
+        ],
+        "predictions": [
+          [
+            335.65679931640625,
+            182.18441772460938,
+            490.20904541015625,
+            355.0465393066406,
+            0.7911137342453003
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00285",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00285.jpg",
+        "ground_truth": [
+          [
+            180.0,
+            253.0,
+            400.0,
+            468.0
+          ]
+        ],
+        "predictions": [
+          [
+            170.92770385742188,
+            265.55047607421875,
+            394.8659973144531,
+            467.56866455078125,
+            0.8398885726928711
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00298",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00298.jpg",
+        "ground_truth": [
+          [
+            119.0,
+            214.0,
+            315.0,
+            436.0
+          ]
+        ],
+        "predictions": [
+          [
+            118.27555084228516,
+            209.33172607421875,
+            323.4638977050781,
+            436.0313720703125,
+            0.822026789188385
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00304",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00304.jpg",
+        "ground_truth": [
+          [
+            169.0,
+            121.0,
+            393.0,
+            327.0
+          ]
+        ],
+        "predictions": [
+          [
+            168.0881805419922,
+            109.0126953125,
+            397.03741455078125,
+            327.7873840332031,
+            0.8423923850059509
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00310",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00310.jpg",
+        "ground_truth": [
+          [
+            58.0,
+            126.0,
+            287.0,
+            359.0
+          ]
+        ],
+        "predictions": [
+          [
+            64.12161254882812,
+            114.54824829101562,
+            288.24188232421875,
+            352.51141357421875,
+            0.7728245854377747
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00312",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00312.jpg",
+        "ground_truth": [
+          [
+            77.0,
+            274.0,
+            323.0,
+            480.0
+          ]
+        ],
+        "predictions": [
+          [
+            71.93557739257812,
+            269.7309265136719,
+            321.0755615234375,
+            475.1176452636719,
+            0.8118290901184082
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00315",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00315.jpg",
+        "ground_truth": [
+          [
+            249.0,
+            342.0,
+            487.0,
+            480.0
+          ]
+        ],
+        "predictions": [
+          [
+            239.84735107421875,
+            333.51165771484375,
+            482.59637451171875,
+            479.40167236328125,
+            0.8210552334785461
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00326",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00326.jpg",
+        "ground_truth": [
+          [
+            208.0,
+            266.0,
+            460.0,
+            480.0
+          ]
+        ],
+        "predictions": [
+          [
+            215.1015625,
+            268.71563720703125,
+            451.588134765625,
+            473.99005126953125,
+            0.8171648979187012
+          ],
+          [
+            100.90858459472656,
+            294.5697021484375,
+            235.36964416503906,
+            480.0,
+            0.4556368589401245
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 1,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 1,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00330",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00330.jpg",
+        "ground_truth": [
+          [
+            278.0,
+            364.0,
+            499.0,
+            480.0
+          ]
+        ],
+        "predictions": [
+          [
+            273.0059509277344,
+            361.2158203125,
+            501.6596374511719,
+            480.0,
+            0.7650070786476135
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00331",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00331.jpg",
+        "ground_truth": [
+          [
+            243.0,
+            0.0,
+            459.0,
+            196.0
+          ]
+        ],
+        "predictions": [
+          [
+            235.19032287597656,
+            1.5833587646484375,
+            463.1483154296875,
+            201.9983673095703,
+            0.8058862686157227
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00334",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00334.jpg",
+        "ground_truth": [
+          [
+            235.0,
+            125.0,
+            453.0,
+            355.0
+          ]
+        ],
+        "predictions": [
+          [
+            234.18096923828125,
+            121.72561645507812,
+            458.28839111328125,
+            365.7356872558594,
+            0.803405225276947
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00337",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00337.jpg",
+        "ground_truth": [
+          [
+            126.0,
+            250.0,
+            343.0,
+            439.0
+          ]
+        ],
+        "predictions": [
+          [
+            118.91021728515625,
+            232.9812774658203,
+            352.1289367675781,
+            434.02227783203125,
+            0.8221923112869263
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00338",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00338.jpg",
+        "ground_truth": [
+          [
+            243.0,
+            326.0,
+            509.0,
+            480.0
+          ]
+        ],
+        "predictions": [
+          [
+            236.55836486816406,
+            329.0716247558594,
+            514.050048828125,
+            479.7570495605469,
+            0.7885413765907288
+          ],
+          [
+            82.35688018798828,
+            137.28457641601562,
+            298.64031982421875,
+            280.5374755859375,
+            0.5913986563682556
+          ],
+          [
+            249.82803344726562,
+            201.40452575683594,
+            457.1156311035156,
+            335.1654052734375,
+            0.540073573589325
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 2,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 2,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00340",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00340.jpg",
+        "ground_truth": [
+          [
+            238.0,
+            355.0,
+            470.0,
+            480.0
+          ]
+        ],
+        "predictions": [
+          [
+            255.272705078125,
+            349.69244384765625,
+            447.10992431640625,
+            479.76971435546875,
+            0.815787136554718
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00342",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00342.jpg",
+        "ground_truth": [
+          [
+            110.0,
+            105.0,
+            420.0,
+            362.0
+          ]
+        ],
+        "predictions": [
+          [
+            116.5791015625,
+            106.39813232421875,
+            406.23614501953125,
+            362.97576904296875,
+            0.789316713809967
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00349",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00349.jpg",
+        "ground_truth": [
+          [
+            201.0,
+            180.0,
+            419.0,
+            392.0
+          ]
+        ],
+        "predictions": [
+          [
+            202.6273193359375,
+            173.7036895751953,
+            422.2886962890625,
+            396.92572021484375,
+            0.8287162184715271
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00350",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00350.jpg",
+        "ground_truth": [
+          [
+            177.0,
+            284.0,
+            412.0,
+            480.0
+          ]
+        ],
+        "predictions": [
+          [
+            182.42929077148438,
+            282.4145812988281,
+            412.5669250488281,
+            480.0,
+            0.7697567939758301
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00352",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00352.jpg",
+        "ground_truth": [
+          [
+            293.0,
+            180.0,
+            632.0,
+            432.0
+          ]
+        ],
+        "predictions": [
+          [
+            341.12060546875,
+            175.74652099609375,
+            618.547607421875,
+            408.14617919921875,
+            0.7174015641212463
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 0,
+            "fp": 1,
+            "fn": 1
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00367",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00367.jpg",
+        "ground_truth": [
+          [
+            22.0,
+            226.0,
+            223.0,
+            440.0
+          ]
+        ],
+        "predictions": [
+          [
+            15.0260009765625,
+            226.36444091796875,
+            226.76153564453125,
+            428.93890380859375,
+            0.8216888904571533
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00368",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00368.jpg",
+        "ground_truth": [
+          [
+            0.0,
+            222.0,
+            132.0,
+            434.0
+          ]
+        ],
+        "predictions": [
+          [
+            0.0,
+            210.62030029296875,
+            135.2163543701172,
+            430.86260986328125,
+            0.8036305904388428
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00381",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00381.jpg",
+        "ground_truth": [
+          [
+            9.0,
+            290.0,
+            236.0,
+            480.0
+          ]
+        ],
+        "predictions": [
+          [
+            10.426467895507812,
+            291.21417236328125,
+            236.01742553710938,
+            480.0,
+            0.8082509636878967
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00383",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00383.jpg",
+        "ground_truth": [
+          [
+            224.0,
+            216.0,
+            531.0,
+            480.0
+          ]
+        ],
+        "predictions": [
+          [
+            236.77671813964844,
+            222.2203369140625,
+            525.3773193359375,
+            477.942626953125,
+            0.7469196319580078
+          ],
+          [
+            45.58338928222656,
+            72.41961669921875,
+            196.7438201904297,
+            259.0544128417969,
+            0.34512102603912354
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 1,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 1,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00386",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00386.jpg",
+        "ground_truth": [
+          [
+            152.0,
+            158.0,
+            377.0,
+            385.0
+          ]
+        ],
+        "predictions": [
+          [
+            168.22528076171875,
+            143.12432861328125,
+            369.640380859375,
+            377.89849853515625,
+            0.7785159945487976
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00389",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00389.jpg",
+        "ground_truth": [
+          [
+            0.0,
+            10.0,
+            222.0,
+            221.0
+          ]
+        ],
+        "predictions": [
+          [
+            0.0,
+            0.0,
+            228.29458618164062,
+            213.12899780273438,
+            0.7788584232330322
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00392",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00392.jpg",
+        "ground_truth": [
+          [
+            127.0,
+            66.0,
+            410.0,
+            296.0
+          ]
+        ],
+        "predictions": [
+          [
+            97.74032592773438,
+            66.53058624267578,
+            386.50628662109375,
+            302.5198974609375,
+            0.831757664680481
+          ],
+          [
+            0.0,
+            54.37873077392578,
+            130.057373046875,
+            257.559814453125,
+            0.27682986855506897
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 1,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 1,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00396",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00396.jpg",
+        "ground_truth": [
+          [
+            234.0,
+            137.0,
+            477.0,
+            355.0
+          ]
+        ],
+        "predictions": [
+          [
+            232.42669677734375,
+            126.76272583007812,
+            468.53497314453125,
+            355.65167236328125,
+            0.7746120691299438
+          ],
+          [
+            0.0,
+            10.354583740234375,
+            135.8558807373047,
+            173.51406860351562,
+            0.3260291516780853
+          ],
+          [
+            431.1650085449219,
+            428.23590087890625,
+            498.7030334472656,
+            479.948974609375,
+            0.29061976075172424
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 2,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 2,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00397",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00397.jpg",
+        "ground_truth": [
+          [
+            246.0,
+            351.0,
+            462.0,
+            480.0
+          ]
+        ],
+        "predictions": [
+          [
+            238.62271118164062,
+            337.96685791015625,
+            458.3377380371094,
+            480.0,
+            0.783638596534729
+          ],
+          [
+            347.06329345703125,
+            112.00286865234375,
+            560.5136108398438,
+            244.63369750976562,
+            0.34643399715423584
+          ],
+          [
+            55.21278381347656,
+            300.8237609863281,
+            180.68267822265625,
+            477.3934020996094,
+            0.3327806890010834
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 2,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 2,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00398",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00398.jpg",
+        "ground_truth": [
+          [
+            186.0,
+            43.0,
+            394.0,
+            265.0
+          ]
+        ],
+        "predictions": [
+          [
+            173.70358276367188,
+            43.7685546875,
+            396.8492126464844,
+            256.63262939453125,
+            0.8171027302742004
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00402",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00402.jpg",
+        "ground_truth": [
+          [
+            453.0,
+            267.0,
+            640.0,
+            457.0
+          ]
+        ],
+        "predictions": [
+          [
+            443.37725830078125,
+            266.76019287109375,
+            640.0,
+            461.49700927734375,
+            0.8721575140953064
+          ],
+          [
+            106.4630355834961,
+            137.98696899414062,
+            269.2414855957031,
+            282.0892333984375,
+            0.4376300871372223
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 1,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 1,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00409",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00409.jpg",
+        "ground_truth": [
+          [
+            77.0,
+            292.0,
+            306.0,
+            480.0
+          ]
+        ],
+        "predictions": [
+          [
+            57.327491760253906,
+            293.44573974609375,
+            289.6029968261719,
+            480.0,
+            0.809407651424408
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      {
+        "sample_id": "bccd:BloodImage_00410",
+        "path": "data/raw/bccd/BCCD_Dataset-d272fb14cdff6e473fafeeeba32aba5f560e9e43/BCCD/JPEGImages/BloodImage_00410.jpg",
+        "ground_truth": [
+          [
+            366.0,
+            165.0,
+            611.0,
+            394.0
+          ]
+        ],
+        "predictions": [
+          [
+            364.923095703125,
+            166.19223022460938,
+            605.2318115234375,
+            385.4596862792969,
+            0.8144134879112244
+          ]
+        ],
+        "counts": {
+          "0.5": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "0.75": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      }
+    ],
+    "note": "Fixed-threshold error counts differ from Ultralytics best-F1 operating point; not mAP."
+  }
+}
